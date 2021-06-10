@@ -29,7 +29,7 @@ $('#employee_table tbody tr').hide(
            }  
       });
 
-$('input:text').onclick(
+$('input:text').click(
     function(){
         $(this).val('');
     });
